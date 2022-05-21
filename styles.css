@@ -1,0 +1,159 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
+:root{
+    --darkuper: rgb(175, 175, 175);
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    font-family: 'Dongle', sans-serif;
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.technologies-item > p {
+    font-family: 'Inconsolata', monospace;
+    font-size: clamp(1.5rem, 2vw, 2rem);
+}
+
+
+.upper {
+    height: 30px;
+    background-color: var(--darkuper);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+.toggle {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(img/keyboard.jpg);
+    min-height: 100vh;
+}
+
+.container {
+    width: max(600px, 60%);
+    background:linear-gradient(rgb(162, 197, 238), rgb(70, 76, 109));
+}
+
+.end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header {
+    background-color: rgba(0,0,0, 0.1);
+    border: 2px solid black;
+    border-top: 0;
+}
+
+.hero {
+    display: flex;
+    padding: 3%;
+    gap: 3%
+}
+
+.portrait {
+    border: 2px solid black;
+    border-radius: 2%;
+}
+
+.hello {
+    font-family: 'Inconsolata', monospace;
+    font-size: clamp(3rem, 5vw, 20rem);
+    text-shadow: 2px 2px white;
+}
+
+h2 {
+    font-family: 'Dongle', sans-serif;
+    font-size: clamp(2rem, 3vw, 3rem);
+    margin: 0;
+    font-weight: 400;
+}
+
+.technologies-img {
+    width: 40px;
+    height: 40px;
+}
+
+
+.technologies-item {
+    display: flex;
+    padding: 10px;
+    margin-left: 20px;
+    align-items: center;
+    gap: 15px;
+}
+
+.content {
+    display: flex;
+    gap: 5%;
+    padding: 3%;
+    border: 2px solid black;
+    border-top: 0;
+}
+
+.fixed {
+    height: 150px;
+    border-bottom: 1px solid #000;
+}
+
+.projects {
+    display: flex;
+    gap:2%;
+    padding: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #000;
+    padding-bottom: 30px;
+}
+
+.projects-img {
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 2%;
+}
+
+.portfolio > h2 {
+    text-align: center;
+}
+
+.portfolio {
+    border: 2px solid black;
+    border-top: 0;
+}
+
+.project-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects-comment {
+    padding: 0 30px;
+}
