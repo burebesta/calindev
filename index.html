@@ -4,116 +4,192 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Calin Web Dev</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Calin Dev</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/49efdbfd03.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="script.js" defer></script>
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png">
 </head>
 <body>
-   
-    <div class="container">
-        <header class="hero">
-            <div><img src="img/calin.png" alt="Calin dev" class="portrait"></div>
-          <p>
-            <span class="hi">HI, THERE! <br></span>
-            My name is Calin Oglinda. <br>
-            I am a computer science graduate and I am working towards becoming a professional Full Stack Developer.<br> 
-           </p>
-        </header>
-        <div class="content">
-            
-            
-            <h2>Decent knowledge of</h2>
-           
-            <section class="technologies">
-                
-                <div class="technologies-item">
-                    <img class='technologies-img' src="img/technologies/html.png" alt="html">
-                    <p>HTML</p>
-                </div>
-                <div class="technologies-item">
-                    <img class='technologies-img' src="img/technologies/css.png" alt="CSS">
-                    <p>CSS</p>
-                </div>
-                <div class="technologies-item">
-                    <img class='technologies-img' src="img/technologies/javascript.png" alt="JavaScript">
-                    <p>JavaScript</p>
-                </div>
-                <div class="technologies-item">
-                    <img class='technologies-img' src="img/technologies/git.png" alt="GIT">
-                    <p>GIT</p>
-                </div>
-                <div class="technologies-item">
-                    <img class='technologies-img' src="img/technologies/command-line.png" alt="CLI">
-                    <p>CLI</p>
-                </div>
-                <div class="technologies-item">
-                    <img class='technologies-img' src="img/technologies/python.png" alt="Python">
-                    <p>Python</p>
-                </div>
-                <div class="technologies-item">
-                    <img class='technologies-img' src="img/technologies/c.png" alt="C">
-                    <p>C</p>
-                </div>
-            </section>
-        </div>
-        <div class="content">    
-            <h2>Traits</h2>
-            <section class="traits"> 
-                
-                    <p>Positive outlook, rational thinker</p>
-                    <p>Outgoing, team player</p>
-                    <p>Responsible and confident</p>
-                    <p>Love everything related to computers, science, art, travel.</p>
-                
-            </section>
-        </div>
+    <header>
         
-        <section class="portfolio">
-            <h2>Projects</h2>
-            <div class="projects">
-                <div class='project-item'>
-                    <p>Book Library</p>
-                    <a href="https://decebrolus.github.io/books/" target="_blank">
-                        <img class='projects-img' src="img/books.jpg" alt="book library">
-                    </a>
-                </div>
-                <div class='project-item'>
-                    <p>Dashboard page</p>
-                    <a href="https://decebrolus.github.io/dashboard/" target="_blank">
-                        <img class='projects-img' src="img/dashboard.png" alt="Dashboard">
-                    </a>
-                </div>
-                <div class='project-item'>
-                    <p>Sign-up Form</p>
-                    <a href="https://decebrolus.github.io/signup/" target="_blank">
-                        <img class='projects-img' src="img/form.png" alt="sign-up">
-                    </a>
-                </div>
 
-                
-                <div class='project-item'>
-                    <p>Javascript Calculator</p>
-                    <a href="https://decebrolus.github.io/calculator/" target="_blank">
-                        <img class='projects-img' src="img/calculator.png" alt="Calculator">
-                    </a>
+
+        <nav>
+            <div class="logo">
+                <span class="logo__title">< calin dev ></span>
+            </div>
+            <div data-color='rgb(255, 0, 34)' class="color__pick color__pick--red selected-border"></div>
+            <div data-color='rgb(133, 241, 241)' class="color__pick color__pick--blue"></div>
+            <div data-color='rgb(116, 255, 128)' class="color__pick color__pick--green"></div>
+            
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h1 class="hero__title">
+            Hi, I am <br>
+            <strong>Calin Oglinda</strong>
+        </h1>
+        <p class="hero__subtitle">
+            frontend dev
+        </p>
+        <img class='hero__img' src="./img/calin-dev.jpeg" alt="portrait of Calin dev">
+    </section>
+    <section class="skills">
+        <h1 class="skills__title">Skills</h1>
+        <div class="skills-container">
+
+
+            <div class="technology-icon">
+                <div class="technology__container">
+                    <div class='front__container'>
+                        <img src="./img/technologies/js.png" alt="">
+                    </div>
+                    <div class="back__container"><p class="card-back__text">JavaScript</p></div>
                 </div>
-                <div class='project-item'>
-                    <p>Javascript Sketch </p>
-                    <a href="https://decebrolus.github.io/sketch/" target="_blank">
-                        <img class='projects-img' src="img/sketch.png" alt="sketch">
-                    </a>
-                </div>
-                <div class='project-item'>
-                    <p>MIKO Landing Page</p>
-                    <a href="https://miko-collection.netlify.app/" target="_blank">
-                        <img class='projects-img' src="img/miko.png" alt="Miko">
-                    </a>
-                </div>
-                
             </div>
             
+            <div class="technology-icon">
+                <div class="technology__container">
+                    <div class='front__container'>
+                        <img src="./img/technologies/vue.png" alt="">
+                    </div>
+                    <div class="back__container"><p class="card-back__text">Vue.js</p></div>
+                </div>
+            </div>
+            <div class="technology-icon">
+                <div class="technology__container">
+                    <div class='front__container'>
+                        <img src="./img/technologies/typescript.png" alt="">
+                    </div>
+                    <div class="back__container"><p class="card-back__text">TypeScript</p></div>
+                </div>
+            </div>
+            <div class="technology-icon">
+                <div class="technology__container">
+                    <div class='front__container'>
+                        <img src="./img/technologies/html.png" alt="">
+                    </div>
+                    <div class="back__container"><p class="card-back__text">HTML</p></div>
+                </div>
+            </div>
+            <div class="technology-icon">
+                <div class="technology__container">
+                    <div class='front__container'>
+                        <img src="./img/technologies/css.png" alt="">
+                    </div>
+                    <div class="back__container"><p class="card-back__text">CSS</p></div>
+                </div>
+            </div>
+            <div class="technology-icon">
+                <div class="technology__container">
+                    <div class='front__container'>
+                        <img src="./img/technologies/sass.png" alt="">
+                    </div>
+                    <div class="back__container"><p class="card-back__text">SASS</p></div>
+                </div>
+            </div>
+            <div class="technology-icon">
+                <div class="technology__container">
+                    <div class='front__container'>
+                        <img src="./img/technologies/git.png" alt="">
+                    </div>
+                    <div class="back__container"><p class="card-back__text">GIT</p></div>
+                </div>
+            </div>
+            <div class="technology-icon cli-icon">
+                <div class="technology__container">
+                    <div class='front__container'>
+                        <img src="./img/technologies/command-line.png" alt="">
+                    </div>
+                    <div class="back__container"><p class="card-back__text">CLI</p></div>
+                </div>
+            </div>
+            <div class="technology-icon">
+                <div class="technology__container">
+                    <div class='front__container'>
+                        <img src="./img/technologies/c.png" alt="">
+                    </div>
+                    <div class="back__container"><p class="card-back__text">C</p></div>
+                </div>
+            </div>
+            <div class="technology-icon">
+                <div class="technology__container">
+                    <div class='front__container'>
+                        <img src="./img/technologies/python.png" alt="">
+                    </div>
+                    <div class="back__container"><p class="card-back__text">Python</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="experience">
+        <h1 class="experience__title">Experience</h1>
+        <p class="experience__description">
+            This summer I was part of a Frontend Internship at Inther Software Development. <br>
+            Our team was tasked with the development of a Web App for booking Office Spaces.<br>
+        </p>
+            <span class="tech-stack"> Tech stack<br></span>
+            <ul class="tech-stack-list">
+                <li>Vue.js + TypeScript</li>
+                <li>Pinia for state management</li>
+                <li>Axios to create requests to the backend</li>
+                <li>Bootstrap</li>
+                <li>Sass with BEM naming convention</li>
+            </ul>
+        <p class="experience__description">
+            Every week we planned a sprint, created and assigned tasks for each team member.<br>
+            Every day we brainstormed, reviewed code, had stand-up meetings with the mentors.<br>
+            We learned how to work with the backend, how to work as a team.<br>
+        </p>
+    </section>
+    <div class="projects__container">
+        <h1 class="projects__title">Projects</h1>
+        <section class="projects">
+            
+                <div class="project__container"> 
+                    <a href="https://decebrolus.github.io/iphone_lock_screen/" target="_blank">
+                        <img class="project__img" src="./img/projects/lock-screen.jpeg" alt="iphone project">
+                    </a>
+                </div>
+            
+            <div class="project__container">
+                <a href="https://decebrolus.github.io/tictactoe/" target="_blank">
+                    <img class="project__img" src="./img/projects/tic-tac-toe.jpeg" alt="tic tac toe project">
+                </a>
+            </div>
+            <div class="project__container">
+                <a href="https://decebrolus.github.io/dashboard/" target="_blank">
+                    <img class="project__img" src="./img/projects/dashboard.png" alt="dashboard project">
+                </a>
+            </div>
+            <div class="project__container"> 
+                <a href="https://decebrolus.github.io/calculator/" target="_blank">
+                    <img class="project__img" src="./img/projects/calculator.png" alt="calculator project">
+                </a>
+            </div>
+            <div class="project__container"> 
+                <a href="https://decebrolus.github.io/clock/" target="_blank">
+                    <img class="project__img" src="./img/projects/clock.jpeg" alt="clock project">
+                </a>
+            </div>
+            <div class="project__container"> 
+                <a href="https://decebrolus.github.io/signup/" target="_blank">
+                    <img class="project__img" src="./img/projects/form.png" alt="signup form project">
+                </a>
+            </div>
         </section>
-
     </div>
+    <section class="contact">
+        <h3 class="email">burebesta@gmail.com</h2>
+        <div class="socials">
+            <a class='social-contact' href="https://github.com/decebrolus" target="_blank"><i class="social-contact fa-brands fa-github"></i></a>   
+            <a class='social-contact' href="https://www.linkedin.com/in/calin-oglinda/" target="_blank"><i class="social-contact fa-brands fa-linkedin"></i></a>
+        </div>
+    </section>
+
+
 </body>
 </html>
