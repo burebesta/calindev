@@ -85,6 +85,7 @@ nav {
 .logo__title {
     font-family: var(--ff-secondary);
     font-size: var(--fz-h3);
+    margin-left: 1rem;
 }
 
 .color__pick{
