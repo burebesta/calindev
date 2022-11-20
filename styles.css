@@ -365,3 +365,9 @@ nav {
     color: inherit;
 }
 
+.social-contact:hover {
+    transform: scale(1.05);
+    transition: 50ms;
+
+}
+
